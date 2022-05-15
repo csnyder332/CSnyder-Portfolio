@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Form, Button, Container } from 'react-bootstrap';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
@@ -37,29 +37,27 @@ function ContactForm() {
   };
 
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <button data-testid="button" type="submit">Submit</button>
-      </form>
-    </section>
+   <Container> 
+      <Form>
+        <h1>Contact Me</h1>
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+    <Form.Label>Name</Form.Label>
+    <Form.Control type="Name" placeholder="Enter Name" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="formBasicEmail">
+    <Form.Label>Email address</Form.Label>
+    <Form.Control type="email" placeholder="Enter email" />
+  </Form.Group>
+
+  <Form.Group className="mb-3" controlId="formBasicPassword">
+    <Form.Label>Message</Form.Label>
+    <Form.Control type="textarea" rows="5" placeholder="Enter text" />
+  </Form.Group>
+  <Button variant="primary" type="submit">
+    Submit
+  </Button>
+</Form>
+    </Container>
   );
 }
 

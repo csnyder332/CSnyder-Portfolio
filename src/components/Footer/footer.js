@@ -4,7 +4,7 @@ function Footer() {
   return (
     
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            © Copyright 2022 Chris Snyder
+            © 2022 Chris Snyder
           </p>
      
   );

@@ -1,18 +1,19 @@
-import React from "react";
-import Nav from "./components/Nav/nav";
+import React, { useState } from "react";
+import NavList from "./components/NavList/navlist";
 import About from "./components/About/about";
 import ContactForm from "./components/Contact/contact";
 import Projects from "./components/Projects/projects";
-import Skills from "./components/Skills/skills";
 import Footer from "./components/Footer/footer";
+import { Container } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../src/App'
 
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
-        <Nav />
+        <NavList />
         <About />
         <Projects />
-        <Skills />
         <ContactForm />
         <Footer />
     </main>
