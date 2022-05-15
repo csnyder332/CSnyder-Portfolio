@@ -30,8 +30,8 @@
   email: csnyder332@gmail.com
 
   ## Links
-  Github repo: https://github.com/csnyder332/csnyder-react-portfolio
-  
+  Github repo: https://github.com/csnyder332/csnyder-react-portfolio  
+  Live URL: https://csnyderreactapp.herokuapp.com/  
   
   
   
