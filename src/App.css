@@ -1,3 +1,8 @@
+main {
+  background-color: dimgray;
+}
+
+
 .CardGroup {
   display: flex;
   justify-content: center;
@@ -5,7 +10,7 @@
   flex-wrap:wrap;
 }
 
-.Card {
+.Card 
   background: #fff;
   width: 24em;
   border-radius: 5em;

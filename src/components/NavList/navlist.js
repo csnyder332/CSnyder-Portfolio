@@ -1,28 +1,46 @@
 import React from "react";
-import { NavLink, Nav, Navbar, Container} from 'react-bootstrap';
-// import { BsLinkedin } from 'react-icons/fa';
+import { Container } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
+import Navbar from "react-bootstrap/Navbar";
 
+function NavList(props) {
+	const { currentTab, setCurrentTab } = props;
 
-function NavList() {
-  return (
-    <Navbar bg="dark" variant="dark" sticky="top">
-    <Container>
-    <Navbar.Brand>Chris Snyder</Navbar.Brand>
-    
-    <Nav className="me-auto">
-      <NavLink href="#About">About</NavLink>
-      <NavLink href="#Projects">Projects</NavLink>
-      <NavLink href="#Skills">Skills</NavLink>
-      <NavLink href="#Resume">Resume</NavLink>
-      <NavLink href="#Contact">Contact</NavLink>
-      {/* <NavLink src={BsLinkedin}></NavLink> */}
+	return (
+		<Container fluid className="p-0">
+			<Navbar collapseOnSelect bg="dark" variant="dark" className="px-2 p-sm-0" id="navbar-collapse-id" expand="lg" fill activekey={currentTab} justified>
+        <h2 className="navtitle">Chris Snyder</h2>
+				<Container>
+					<Navbar.Toggle aria-controls="responsive-navbar-nav px-3 px-sm-1 px-md-0" />
 
-      
-      
-    </Nav>
-    </Container>
-  </Navbar>
-  
-  );
+					<Navbar.Collapse id="responsive-navbar-nav">
+						<Nav activeKey={currentTab} onSelect={setCurrentTab} className="px-3 px-sm-1 px-md-0">
+							<Nav.Item>
+								<Nav.Link onClick={() => setCurrentTab("about")} eventKey="about">
+									About
+								</Nav.Link>
+							</Nav.Item>
+							<Nav.Item>
+								<Nav.Link onClick={() => setCurrentTab("projects")} eventKey="projects">
+									Portfolio
+								</Nav.Link>
+							</Nav.Item>
+							<Nav.Item>
+								<Nav.Link onClick={() => setCurrentTab("contact")} eventKey="contact">
+									Contact
+								</Nav.Link>
+							</Nav.Item>
+							<Nav.Item>
+								<Nav.Link onClick={() => setCurrentTab("resume")} eventKey="resume">
+									Resume
+								</Nav.Link>
+							</Nav.Item>
+						</Nav>
+					</Navbar.Collapse>
+				</Container>
+			</Navbar>
+		</Container>
+	);
 }
+
 export default NavList;
