@@ -37,7 +37,7 @@ function ContactForm() {
   };
 
   return (
-   <Container> 
+   <Container > 
       <Form>
         <h1>Contact Me</h1>
         <Form.Group className="mb-3" controlId="formBasicEmail">
