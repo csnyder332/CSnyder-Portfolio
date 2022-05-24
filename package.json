@@ -1,7 +1,7 @@
 {
-  "name": "csnyder-react-portfolio",
+  "name": "csnyder-portfolio",
   "version": "0.1.0",
-  "homepage": "https://csnyder332.github.io/csnyder-react-portfolio",
+  "homepage": "https://csnyder332.github.io/CSnyder-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -51,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
