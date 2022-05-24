@@ -1,4 +1,6 @@
 
+# CSnyder React Portfolio
+
   ## Badges
   ![badge](https://img.shields.io/badge/license-Github,NPM-yellow)<br />
  
@@ -19,19 +21,24 @@
 
   ## Usage
   
-
   ## Contribute
   [Contributor Covenant](https://www.contributor-covenant.org/)
   Chris Snyder
+
 
   ## Questions?
   
   Github: [csnyder332](https://github.com/csnyder332)
   email: csnyder332@gmail.com
 
+
+  ## License
+  ![NPM](https://img.shields.io/npm/l/inquirer)
+  
+
+=======
   ## Links
   Github repo: https://github.com/csnyder332/csnyder-react-portfolio  
   Live URL: https://csnyderreactapp.herokuapp.com/  
-  
-  
-  
+
+

@@ -9,7 +9,7 @@ function NavList(props) {
 	return (
 		<Container fluid className="p-0">
 			<Navbar collapseOnSelect bg="dark" variant="dark" className="px-2 p-sm-0" id="navbar-collapse-id" expand="lg" fill activekey={currentTab} justified>
-        <h2 className="navtitle">Chris Snyder</h2>
+        
 				<Container>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav px-3 px-sm-1 px-md-0" />
 

@@ -6,8 +6,11 @@ import Projects from "./components/Projects/projects";
 import Resume from "./components/Resume/resume"
 import Footer from "./components/Footer/footer";
 import { Container } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '../src/App'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/App';
+import '../src/custom.scss';
+
+
 
 function App() {
   const [currentTab, setCurrentTab] = useState("about");
@@ -20,12 +23,13 @@ function App() {
 				return <Projects />;
 			case "contact":
 				return <ContactForm />;
-				// case "resume":
-				// return <Resume />;
+				case "resume":
+				return <Resume />;
 			default:
 				return null;
 		}
 	};
+
 
   return (
 		<div>
@@ -36,10 +40,13 @@ function App() {
 				<main>{renderTab()}</main>
 			</Container>
 			<Container fluid>
+				<section className="split"></section>
 			</Container>
 			<Footer />
+			
 		</div>
 	);
 }
   
 export default App;
+
