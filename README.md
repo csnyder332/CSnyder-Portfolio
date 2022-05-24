@@ -12,8 +12,6 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribute](#contribute)
-  - [Features](#features)
-  - [Tests](#tests)
   - [questions?](#Questions)
   - [License](#license)
   
@@ -22,17 +20,10 @@
 
   ## Usage
   
-
   ## Contribute
   [Contributor Covenant](https://www.contributor-covenant.org/)
   Chris Snyder
 
-
-  ## Features
-  
-
-  ## Tests
-  
 
   ## Questions?
   
