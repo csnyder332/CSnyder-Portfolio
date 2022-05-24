@@ -1,17 +1,16 @@
-import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react';
+import Pdf from './Pdf.js';
 
 
 
+const Resume = ()=> {
 
-function Resume() {
-  return (
-      <div id="res"> 
-      <a href="../Resume/CSnyder0422.pdf">   
-    <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
-    </a>
-    </div>
-  )
-};
+return (
+	<div className="resume">
+		
+		<Pdf />
+	</div>
+);
+}
 
 export default Resume;

@@ -1,48 +1,29 @@
-import React, { useState } from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { Form, Button, Container } from 'react-bootstrap';
-import { validateEmail } from '../../utils/helpers';
+// import { validateEmail } from '../../utils/helpers';
 
-function ContactForm() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+export const ContactForm = () => {
+  const form = useRef();
 
-  const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
-
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
-    }
-  };
 
-  const handleChange = (e) => {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
-      } else {
-        setErrorMessage('');
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Handle Form', formState);
-    }
+    emailjs.sendForm('service_a7wj21a', 'template_rq3ji47', form.current, 'CmYYLvsw8CRtZIQR0')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
   return (
    <Container > 
-      <Form>
+      <Form ref={form} onSubmit={sendEmail}>
         <h1>Contact Me</h1>
         <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Name</Form.Label>
-    <Form.Control type="Name" placeholder="Enter Name" />
+    <Form.Control type="text" placeholder="Enter Name" />
   </Form.Group>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>

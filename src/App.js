@@ -7,7 +7,6 @@ import Resume from "./components/Resume/resume"
 import Footer from "./components/Footer/footer";
 import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import './style.css';
 import '../src/App';
 import '../src/custom.scss';
 
