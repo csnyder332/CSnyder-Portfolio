@@ -30,7 +30,7 @@ function Projects() {
           <Card.Img src={pic2} className="img-fluid" alt="Card image" />
           <Card.Body>
             <Card.Title>Construction Services</Card.Title>
-            <Card.Text>A full service painting/remodeling company.</Card.Text>
+            <Card.Text>A full service painting/remodeling company. (In Progress)</Card.Text>
             <Button
               variant="primary p-1 p-sm-2"
               href="https://csnyder332.github.io/Jaqueline-site/"
