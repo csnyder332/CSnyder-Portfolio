@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CSnyder-Portfolio/static/css/main.b59e7116.css",
-    "main.js": "/CSnyder-Portfolio/static/js/main.f5da0621.js",
+    "main.js": "/CSnyder-Portfolio/static/js/main.df40cc35.js",
     "static/js/787.54a37af0.chunk.js": "/CSnyder-Portfolio/static/js/787.54a37af0.chunk.js",
     "static/media/me1.jpg": "/CSnyder-Portfolio/static/media/me1.2935c4dfdb696220aa23.jpg",
     "static/media/photo-port.png": "/CSnyder-Portfolio/static/media/photo-port.59bb61b6834f33409e64.png",
@@ -11,11 +11,11 @@
     "static/media/calorie-counter.png": "/CSnyder-Portfolio/static/media/calorie-counter.ee53a28479b78fee6f89.png",
     "index.html": "/CSnyder-Portfolio/index.html",
     "main.b59e7116.css.map": "/CSnyder-Portfolio/static/css/main.b59e7116.css.map",
-    "main.f5da0621.js.map": "/CSnyder-Portfolio/static/js/main.f5da0621.js.map",
+    "main.df40cc35.js.map": "/CSnyder-Portfolio/static/js/main.df40cc35.js.map",
     "787.54a37af0.chunk.js.map": "/CSnyder-Portfolio/static/js/787.54a37af0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b59e7116.css",
-    "static/js/main.f5da0621.js"
+    "static/js/main.df40cc35.js"
   ]
 }
