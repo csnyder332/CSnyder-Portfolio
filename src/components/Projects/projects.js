@@ -3,7 +3,7 @@ import { Card, Button, CardGroup, Container } from "react-bootstrap";
 import pic from "../Projects/bootlegss.png";
 import pic1 from "../Projects/calorie-counter.png";
 import pic2 from "../Projects/ConstServices.png";
-import pic3 from "../Projects/photo-port.png";
+import pic3 from "../Projects/Geektutors.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Projects() {
