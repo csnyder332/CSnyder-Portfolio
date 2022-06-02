@@ -3,7 +3,7 @@ import { Card, Button, CardGroup, Container } from "react-bootstrap";
 import pic from "../Projects/bootlegss.png";
 import pic1 from "../Projects/calorie-counter.png";
 import pic2 from "../Projects/ConstServices.png";
-import pic3 from "../Projects/photo-port.png";
+import pic3 from "../Projects/Geektutors.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Projects() {
@@ -30,7 +30,7 @@ function Projects() {
           <Card.Img src={pic2} className="img-fluid" alt="Card image" />
           <Card.Body>
             <Card.Title>Construction Services</Card.Title>
-            <Card.Text>A full service painting/remodeling company.</Card.Text>
+            <Card.Text>A full service painting/remodeling company. (In Progress)</Card.Text>
             <Button
               variant="primary p-1 p-sm-2"
               href="https://csnyder332.github.io/Jaqueline-site/"
@@ -61,12 +61,12 @@ function Projects() {
         <Card className="card-deck">
           <Card.Img src={pic3} className="img-fluid" alt="Card image" />
           <Card.Body>
-            <Card.Title>photo-port-react</Card.Title>
-            <Card.Text>A React photo app.</Card.Text>
+            <Card.Title>GeekTutors</Card.Title>
+            <Card.Text>A React tutor finding app.</Card.Text>
             <Button
             variant="primary p-1 p-sm-2"
-              href="https://csnyder332.github.io/photo-port/"
-              title="Bootleg"
+              href="https://geektutor-123.herokuapp.com/"
+              title="GeekTutors"
             >
               Open page
             </Button>

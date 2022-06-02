@@ -1,7 +1,11 @@
 {
   "name": "csnyder-portfolio",
   "version": "0.1.0",
+<<<<<<< HEAD
   "homepage": "https://csnyder332.github.io/CSnyder-portfolio",
+=======
+  "homepage": "https://csnyder332.github.io/CSnyder-Portfolio",
+>>>>>>> main
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
