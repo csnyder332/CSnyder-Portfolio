@@ -39,6 +39,6 @@
 =======
   ## Links
   Github repo: https://github.com/csnyder332/csnyder-react-portfolio  
-  Live URL: https://csnyderreactapp.herokuapp.com/  
+  Live URL: https://csnyder332.github.io/CSnyder-Portfolio/
 
 
