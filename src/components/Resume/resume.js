@@ -5,8 +5,8 @@ const Resume = () => (
   <embed justify-con
     src={PDF}
     type="application/pdf"
-    height={700}
-    width={1900}
+    height={500}
+    width={800}
   />
 );
 

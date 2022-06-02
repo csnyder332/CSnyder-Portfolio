@@ -61,12 +61,12 @@ function Projects() {
         <Card className="card-deck">
           <Card.Img src={pic3} className="img-fluid" alt="Card image" />
           <Card.Body>
-            <Card.Title>photo-port-react</Card.Title>
-            <Card.Text>A React photo app.</Card.Text>
+            <Card.Title>GeekTutors</Card.Title>
+            <Card.Text>A React tutor finding app.</Card.Text>
             <Button
             variant="primary p-1 p-sm-2"
-              href="https://csnyder332.github.io/photo-port/"
-              title="Bootleg"
+              href="https://geektutor-123.herokuapp.com/"
+              title="GeekTutors"
             >
               Open page
             </Button>
