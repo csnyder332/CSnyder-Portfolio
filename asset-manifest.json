@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CSnyder-Portfolio/static/css/main.b59e7116.css",
-    "main.js": "/CSnyder-Portfolio/static/js/main.d88d88bb.js",
-    "static/js/787.54a37af0.chunk.js": "/CSnyder-Portfolio/static/js/787.54a37af0.chunk.js",
+    "main.css": "/CSnyder-Portfolio/static/css/main.7b7b778d.css",
+    "main.js": "/CSnyder-Portfolio/static/js/main.b7609b54.js",
+    "static/js/787.976fe3b6.chunk.js": "/CSnyder-Portfolio/static/js/787.976fe3b6.chunk.js",
     "static/media/me1.jpg": "/CSnyder-Portfolio/static/media/me1.2935c4dfdb696220aa23.jpg",
     "static/media/ConstServices.png": "/CSnyder-Portfolio/static/media/ConstServices.97042002f792d0e5e08b.png",
     "static/media/Geektutors.png": "/CSnyder-Portfolio/static/media/Geektutors.858518a112aa0ab571bb.png",
@@ -10,12 +10,12 @@
     "static/media/bootlegss.png": "/CSnyder-Portfolio/static/media/bootlegss.8cfd2c43cb1b5a896e81.png",
     "static/media/calorie-counter.png": "/CSnyder-Portfolio/static/media/calorie-counter.ee53a28479b78fee6f89.png",
     "index.html": "/CSnyder-Portfolio/index.html",
-    "main.b59e7116.css.map": "/CSnyder-Portfolio/static/css/main.b59e7116.css.map",
-    "main.d88d88bb.js.map": "/CSnyder-Portfolio/static/js/main.d88d88bb.js.map",
-    "787.54a37af0.chunk.js.map": "/CSnyder-Portfolio/static/js/787.54a37af0.chunk.js.map"
+    "main.7b7b778d.css.map": "/CSnyder-Portfolio/static/css/main.7b7b778d.css.map",
+    "main.b7609b54.js.map": "/CSnyder-Portfolio/static/js/main.b7609b54.js.map",
+    "787.976fe3b6.chunk.js.map": "/CSnyder-Portfolio/static/js/787.976fe3b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b59e7116.css",
-    "static/js/main.d88d88bb.js"
+    "static/css/main.7b7b778d.css",
+    "static/js/main.b7609b54.js"
   ]
 }
