@@ -33,7 +33,7 @@ function App() {
 
   return (
 		<div>
-			<Container fluid className="p-0">
+			<Container fluid className="app">
 				<Header currentTab={currentTab} setCurrentTab={setCurrentTab} className="p-0 m-0"></Header>
 			</Container>
 			<Container fluid>
