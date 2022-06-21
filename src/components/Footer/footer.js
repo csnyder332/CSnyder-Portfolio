@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons';
 function Footer() {
   return (
     
-      <Container className="footer text-center my-auto py-auto fixed-bottom">
+      <Container className="footer text-center fixed-bottom">
         <Row id="social-icons">
           <Col>
           <SocialIcon url="https://github.com/csnyder332" target="_blank" rel="noopener noreferrer" /> <SocialIcon url="https://www.linkedin.com/in/chris-snyder-642192227/" target="_blank" rel="noopener noreferrer" />
